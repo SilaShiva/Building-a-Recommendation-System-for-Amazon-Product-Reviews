@@ -14,6 +14,7 @@ Evaluation Metrics:
 - Precision@k
 + Recall@k
 * F1-score@k
+
 These metrics provide a comprehensive assessment of the recommendation system's performance, ensuring a balance between accuracy and coverage.
 
 **Project Structure:**
