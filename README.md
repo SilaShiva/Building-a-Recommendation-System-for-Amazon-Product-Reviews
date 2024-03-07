@@ -12,9 +12,11 @@ Collaborative Filtering (using Surprise library): Implements both user-user and 
 Model-Based Collaborative Filtering - Matrix Factorization: Utilizes matrix factorization to capture latent features in the data and enhance personalized recommendations.
 
 **Evaluation Metrics:**
-- Precision@k
-+ Recall@k
-* F1-score@k
+- Precision@k: It is the fraction of recommended items that are relevant in top k predictions. The value of k is the number of recommendations to be provided to the user. One can choose a variable number of recommendations to be given to a unique user.
+
++ Recall@k: It is the fraction of relevant items that are recommended to the user in top k predictions.
+  
+* F1-score@k:It is the harmonic mean of Precision@k and Recall@k. When precision@k and recall@k both seem to be important then it is useful to use this metric because it is representative of both of them.
 
 These metrics provide a comprehensive assessment of the recommendation system's performance, ensuring a balance between accuracy and coverage.
 
