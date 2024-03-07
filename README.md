@@ -10,6 +10,7 @@ Data Collection: The dataset comprises labeled Amazon reviews, providing a rich 
 Rank-Based System: Utilizes a rank-based approach to recommend products based on their overall popularity and ratings.
 Collaborative Filtering (using Surprise library): Implements both user-user and item-item collaborative filtering techniques to enhance recommendation accuracy.
 Model-Based Collaborative Filtering - Matrix Factorization: Utilizes matrix factorization to capture latent features in the data and enhance personalized recommendations.
+
 Evaluation Metrics:
 - Precision@k
 + Recall@k
