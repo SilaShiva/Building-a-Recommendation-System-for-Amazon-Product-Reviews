@@ -11,7 +11,7 @@ Rank-Based System: Utilizes a rank-based approach to recommend products based on
 Collaborative Filtering (using Surprise library): Implements both user-user and item-item collaborative filtering techniques to enhance recommendation accuracy.
 Model-Based Collaborative Filtering - Matrix Factorization: Utilizes matrix factorization to capture latent features in the data and enhance personalized recommendations.
 
-Evaluation Metrics:
+**Evaluation Metrics:**
 - Precision@k
 + Recall@k
 * F1-score@k
